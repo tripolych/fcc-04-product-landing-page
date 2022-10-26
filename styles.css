@@ -38,8 +38,59 @@ html {
 .header {
   position: fixed;
   display: flex;
-  align-items: baseline;
+  justify-content: space-between;
+  align-items: center;
   width: 100%;
+
+  background-color: #f74d3f;
+}
+
+.logo {
+  width: 120px;
+  height: 120px;
+  margin: 20px;
+  object-fit: contain;
+  object-position: center;
+  border: 10px solid #fff;
+}
+
+.nav {
+  margin: auto 20px;
+}
+
+.nav__items {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+
+  list-style-type: none;
+}
+
+.nav__item {
+
+}
+
+.nav__link {
+  margin: 0 40px 0 0;
+  padding: 0;
+
+  color: #fff;
+  font-family: Inter, Arial, 'Helvetica Neue', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 1.25;
+  text-decoration: none;
+}
+
+.nav__link:hover {
+  text-decoration: underline;
+}
+
+.nav__link:active {
+  color: #610a10;
 }
 
 /*
