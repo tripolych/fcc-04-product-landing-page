@@ -77,10 +77,9 @@ html {
   color: #fff;
   font-family: Inter, Arial, 'Helvetica Neue', sans-serif;
   font-style: normal;
-  font-weight: 700;
-  font-size: 1.25rem;
+  font-weight: 400;
+  font-size: 1rem;
   line-height: 1.5;
-  text-decoration: none;
 }
 
 .nav__link:hover {
@@ -101,7 +100,7 @@ html {
 
 .content__title {
   width: 50%;
-  margin: 2rem auto 3rem;
+  margin: 2rem auto 1rem;
   padding: 0;
 
   color: #ad111c;
@@ -118,7 +117,7 @@ html {
   flex-direction: column;
   align-items: center;
   width: 30%;
-  margin: 0 auto 3rem;
+  margin: 0 auto 2rem;
 }
 
 .form__input {
@@ -162,7 +161,15 @@ html {
   flex-direction: column;
   align-items: center;
   width: 100%;
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
+}
+
+.section:first-of-type {
+  background-color: #fff;
+}
+
+.section:last-of-type {
+  margin-bottom: 4rem;
 }
 
 .section__title {
@@ -218,7 +225,7 @@ html {
   margin: 0 0 1rem;
   padding: 0;
 
-  color: #ad111c;
+  color: #000;
   font-family: Inter, Arial, 'Helvetica Neue', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -279,32 +286,29 @@ html {
   font-family: Inter, Arial, 'Helvetica Neue', sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 1.5rem;
+  font-size: 1.75rem;
   line-height: 1.5;
   text-align: center;
 
-  background-color: #ff7e4e;
+  background-color: #ad111c;
 }
 
 .pricing-option__charasteristics {
   margin: 0;
   padding: 0;
-  list-style-type: none;
 }
 
 .pricing-option__characteristic {
   margin: 0;
   padding: 0;
 
-  color: #ad111c;
+  color: #000;
   font-family: Inter, Arial, 'Helvetica Neue', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 1rem;
   line-height: 1.5;
   text-align: center;
-
-  background-color: #fff;
 }
 
 .pricing-option__characteristic:last-of-type {
@@ -319,7 +323,7 @@ html {
   color: #fff;
   font-family: Inter, Arial, 'Helvetica Neue', sans-serif;
   font-style: normal;
-  font-weight: 400;
+  font-weight:700;
   font-size: 1rem;
   line-height: 1.5;
   text-align: center;
@@ -328,4 +332,75 @@ html {
   border: 1px solid #ad111c;
 
   cursor: pointer;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+
+  background-color: #ad111c;
+}
+
+.footer__credits {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 50%;
+  padding: 1rem;
+}
+
+.footer__text {
+  margin: 0;
+  padding: 0;
+
+  color: #fff;
+  font-family: Inter, Arial, 'Helvetica Neue', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5;
+  text-align: left;
+}
+
+.footer__text:first-of-type {
+  font-weight: 700;
+
+  margin-bottom: 1rem;
+}
+
+.footer__text:nth-last-of-type(2n) {
+  margin-bottom: 1rem;
+}
+
+.footer__items {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 50%;
+  margin: 0 40px 0  0;
+  padding: 1rem;
+
+  list-style-type: none;
+}
+
+.footer__link {
+  margin: 0;
+  padding: 0;
+
+  color: #fff;
+  font-family: Inter, Arial, 'Helvetica Neue', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.footer__link:hover {
+  text-decoration: underline;
+}
+
+.footer__link:active {
+  color: #610a10;
 }
