@@ -8,6 +8,7 @@
   <meta name="author" content="Nikolay Tripolskiy">
   <title>Product Landing Page</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" integrity="sha512-oHDEc8Xed4hiW6CxD7qjbnI+B07vDdX7hEPTvn9pSZO1bcRqHp8mj9pyr+8RVC2GmtEfI2Bi9Ke9Ass0as+zpg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer">
   <link rel="stylesheet" href="styles.css">
   <script defer src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </head>
@@ -32,30 +33,36 @@
     <main class="content">
       <h1 class="content__title">Lorem ipsum dolor sit amet</h1>
       <form class="form" action="https://www.freecodecamp.com/email-submit">
-        <label class="form__label" for="email"></label>
+        <label for="email"></label>
         <input class="form__input" id="email" type="email" name="email" placeholder="Please enter your email" required>
         <button class="form__submit" id="submit" type="submit">Submit</button>
       </form>
       <section class="section" id="Features">
         <h2 class="section__title">Features</h2>
-        <article>
-          <div class="section__image"></div>
-          <h3 class="section__subtitle">Lorem ipsum dolor sit amet</h3>
-          <p class="section__text">
+        <article class="article">
+          <div class="article__image">
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <h3 class="article__title">Lorem ipsum dolor sit amet</h3>
+          <p class="article__text">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
           </p>
         </article>
-        <article>
-          <div class="section__image"></div>
-          <h3 class="section__subtitle">Lorem ipsum dolor sit amet</h3>
-          <p class="section__text">
+        <article class="article">
+          <div class="article__image">
+            <i class="fa-solid fa-truck-fast"></i>
+          </div>
+          <h3 class="article__title">Lorem ipsum dolor sit amet</h3>
+          <p class="article__text">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
           </p>
         </article>
-        <article>
-          <div class="section__image"></div>
-          <h3 class="section__subtitle">Lorem ipsum dolor sit amet</h3>
-          <p class="section__text">
+        <article class="article">
+          <div class="article__image">
+            <i class="fa-regular fa-handshake"></i>
+          </div>
+          <h3 class="article__title">Lorem ipsum dolor sit amet</h3>
+          <p class="article__text">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
           </p>
         </article>
@@ -66,8 +73,8 @@
       </section>
       <section class="section" id="Pricing">
         <h2 class="section__title">Pricing</h2>
-        <article class="section__article">
-          <h3 class="section__subtitle">Lorem ipsum</h3>
+        <article class="article__text">
+          <h3 class="article__title">Lorem ipsum</h3>
           <p class="section__price">$300</p>
           <ul class="sections__charasteristics">
             <li class="section__characteristic">
@@ -85,8 +92,8 @@
           </ul>
           <button class="btn">Select</button>
         </article>
-        <article class="section__article">
-          <h3 class="section__subtitle">Lorem ipsum</h3>
+        <article class="article__text">
+          <h3 class="article__title">Lorem ipsum</h3>
           <p class="section__price">$600</p>
           <ul class="sections__charasteristics">
             <li class="section__characteristic">
@@ -104,8 +111,8 @@
           </ul>
           <button class="btn">Select</button>
         </article>
-        <article class="section__article">
-          <h3 class="section__subtitle">Lorem ipsum</h3>
+        <article class="article__text">
+          <h3 class="article__title">Lorem ipsum</h3>
           <p class="section__price">$900</p>
           <ul class="sections__charasteristics">
             <li class="section__characteristic">
