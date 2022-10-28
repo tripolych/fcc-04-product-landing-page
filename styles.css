@@ -44,7 +44,7 @@ html {
   width: 100%;
   max-width: 1600px ;
 
-  background-color: #ad111c;
+  background-color: #4c4c4c;
 }
 
 .logo {
@@ -74,12 +74,15 @@ html {
   margin: 0 40px 0 0;
   padding: 0;
 
-  color: #fff;
+  color: #000;
   font-family: Inter, Arial, 'Helvetica Neue', sans-serif;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 700;
   font-size: 1rem;
   line-height: 1.5;
+  text-decoration: none;
+
+  background-color: #fff;
 }
 
 .nav__link:hover {
@@ -99,16 +102,16 @@ html {
 }
 
 .content__title {
-  width: 50%;
-  margin: 2rem auto 1rem;
+  width: 75%;
+  margin: 2rem auto 2rem;
   padding: 0;
 
-  color: #ad111c;
+  color: #000;
   font-family: Inter, Arial, 'Helvetica Neue', sans-serif;
   font-style: normal;
   font-weight: 900;
   font-size: 3rem;
-  line-height: 1.5;
+  line-height: 1;
   text-align: center;
 }
 
@@ -126,15 +129,15 @@ html {
   margin: 0 0 1rem;
   padding: .5rem .5rem;
 
-  color: #ad111c;
+  color: #000;
   font-family: Inter, Arial, 'Helvetica Neue', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 1rem;
   line-height: 1.5;
-  text-align: left;
+  text-align: center;
 
-  border: 1px solid #ad111c;
+  border: 1px solid #000;
 }
 
 .form__submit {
@@ -142,16 +145,16 @@ html {
   min-height: 2.5rem;
   padding: .5rem .5rem;
 
-  color: #fff;
+  color: #000;
   font-family: Inter, Arial, 'Helvetica Neue', sans-serif;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 700;
   font-size: 1rem;
   line-height: 1.5;
   text-align: center;
 
-  background-color: #ad111c;
-  border: 1px solid #ad111c;
+  background-color: #fff;
+  border: 3px solid #000;
 
   cursor: pointer;
 }
@@ -176,7 +179,7 @@ html {
   width: 50%;
   margin: 0 auto 2rem;
 
-  color: #ad111c;
+  color: #fff;
   font-family: Inter, Arial, 'Helvetica Neue', sans-serif;
   font-style: normal;
   font-weight: 900;
@@ -184,7 +187,7 @@ html {
   line-height: 1.5;
   text-align: center;
 
-  background-color: #fff;
+  background-color: #4c4c4c;
 }
 
 .article {
@@ -198,7 +201,7 @@ html {
   margin: 0 0 1rem;
   padding: 0;
 
-  color: #ad111c;
+  color: #000;
   font-size: 2rem;
 
   background-color: #fff;
@@ -209,15 +212,13 @@ html {
   margin: 0 0 1rem;
   padding: 0;
 
-  color: #ad111c;
+  color: #000;
   font-family: Inter, Arial, 'Helvetica Neue', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 1.25rem;
   line-height: 1.5;
   text-align: left;
-
-  background-color: #fff;
 }
 
 .article__text {
@@ -232,8 +233,6 @@ html {
   font-size: 1rem;
   line-height: 1.5;
   text-align: left;
-
-  background-color: #fff;
 }
 
 .section__video {
@@ -266,15 +265,13 @@ html {
   margin: 0 0 1rem;
   padding: 0;
 
-  color: #ad111c;
+  color: #000;
   font-family: Inter, Arial, 'Helvetica Neue', sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   line-height: 1.5;
   text-align: center;
-
-  background-color: #fff;
 }
 
 .pricing-option__price {
@@ -282,15 +279,13 @@ html {
   margin: 0 0 1rem;
   padding: 0;
 
-  color: #fff;
+  color: #000;
   font-family: Inter, Arial, 'Helvetica Neue', sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 1.75rem;
+  font-size: 1.5rem;
   line-height: 1.5;
   text-align: center;
-
-  background-color: #ad111c;
 }
 
 .pricing-option__charasteristics {
@@ -320,7 +315,7 @@ html {
   min-height: 2.5rem;
   padding: .5rem .5rem;
 
-  color: #fff;
+  color: #000;
   font-family: Inter, Arial, 'Helvetica Neue', sans-serif;
   font-style: normal;
   font-weight:700;
@@ -328,8 +323,8 @@ html {
   line-height: 1.5;
   text-align: center;
 
-  background-color: #ad111c;
-  border: 1px solid #ad111c;
+  background-color: #fff;
+  border: 3px solid #000;
 
   cursor: pointer;
 }
@@ -340,7 +335,7 @@ html {
   align-items: center;
   width: 100%;
 
-  background-color: #ad111c;
+  background-color: #4c4c4c;
 }
 
 .footer__credits {
@@ -355,13 +350,15 @@ html {
   margin: 0;
   padding: 0;
 
-  color: #fff;
+  color: #000;
   font-family: Inter, Arial, 'Helvetica Neue', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 1rem;
   line-height: 1.5;
   text-align: left;
+
+  background-color: #fff;
 }
 
 .footer__text:first-of-type {
@@ -389,12 +386,15 @@ html {
   margin: 0;
   padding: 0;
 
-  color: #fff;
+  color: #000;
   font-family: Inter, Arial, 'Helvetica Neue', sans-serif;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 700;
   font-size: 1rem;
   line-height: 1.5;
+  text-decoration: none;
+
+  background-color: #fff;
 }
 
 .footer__link:hover {
