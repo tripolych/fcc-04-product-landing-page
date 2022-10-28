@@ -70,7 +70,7 @@ html {
   list-style-type: none;
 }
 
-.nav__link {
+.nav-link {
   margin: 0 40px 0 0;
   padding: 0;
 
@@ -85,11 +85,11 @@ html {
   background-color: #fff;
 }
 
-.nav__link:hover {
+.nav-link:hover {
   text-decoration: underline;
 }
 
-.nav__link:active {
+.nav-link:active {
   color: #610a10;
 }
 
